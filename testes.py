@@ -19,17 +19,17 @@ def RemoverProduto():
 def EditarProduto():
 	print("Digite o produto a ser editado\n")
 	ProdutoEditar = input(str())
-	for i in catalogo:
-		if catalogo[i] = ProdutoEditar:
+	i = 0
+	while catalogo[i] == ProdutoEditar:
+		if catalogo[i] == ProdutoEditar:
 			catalogo[i] = ProdutoEditar
-	
+		
 	print("\nProduto editado com sucesso")
 	
 def lista():
 	for i in catalogo:
   		print(i)
 		  
-
 AdicionarProduto()
 
 lista()
